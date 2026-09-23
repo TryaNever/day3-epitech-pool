@@ -15,5 +15,6 @@ int my_print_alpha(void)
         my_putchar(letter);
         letter += 1;
     }
+    my_putchar('\n');
     return (1);
 }

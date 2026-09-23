@@ -15,5 +15,6 @@ int my_print_digits(void)
         my_putchar(integer);
         integer += 1;
     }
+    my_putchar('\n');
     return (1);
 }
